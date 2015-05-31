@@ -15,22 +15,22 @@ namespace POEApi.Infrastructure
 
         private CurrencyAbbreviationMap()
         {
-            addItem("Chromatic Orb", "chrom");
-            addItem("Orb of Alteration", "alt");
-            addItem("Jeweller's Orb", "jewel");
-            addItem("Orb of Chance", "chance");
-            addItem("Cartographer's Chisel", "chisel");
-            addItem("Orb of Fusing", "fuse");
-            addItem("Orb of Alchemy", "alch");
-            addItem("Orb of Scouring", "scour");
-            addItem("Blessed Orb", "blessed");
-            addItem("Chaos Orb", "chaos");
-            addItem("Orb of Regret", "regret");
-            addItem("Regal Orb", "regal");
-            addItem("Gemcutter's Prism", "gcp");
-            addItem("Divine Orb", "divine");
-            addItem("Exalted Orb", "exa");
-            addItem("Vaal Orb", "vaal");
+            addItem("Цветная сфера", "цвет");
+            addItem("Сфера перемен", "перем");
+            addItem("Сфера златокузнеца", "злат");
+            addItem("Сфера удачи", "удач");
+            addItem("Резец картографа", "рез");
+            addItem("Сфера соединения", "соед");
+            addItem("Сфера алхимии", "алх");
+            addItem("Сфера очищения", "очищ");
+            addItem("Благодатная сфера", "благ");
+            addItem("Сфера хаоса", "хаос");
+            addItem("Сфера раскаяния", "раск");
+            addItem("Сфера царей", "цар");
+            addItem("Призма камнереза", "пкр");
+            addItem("Божественная сфера", "бож");
+            addItem("Сфера возвышения", "возв");
+            addItem("Сфера ваал", "ваал");
         }
 
         private static void addItem(string currency, string abbreviation)
