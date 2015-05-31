@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using System;
+﻿using System;
+using System.Collections.Generic;
 
 namespace POEApi.Infrastructure
 {
@@ -43,7 +43,7 @@ namespace POEApi.Infrastructure
         {
             if (!abbreviationToCurrency.ContainsKey(abbreviation))
                 return string.Empty;
-            
+
             return abbreviationToCurrency[abbreviation];
         }
 

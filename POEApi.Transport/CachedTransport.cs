@@ -1,9 +1,9 @@
-﻿using System.IO;
-using POEApi.Infrastructure;
-using System.Security;
-using POEApi.Infrastructure.Events;
+﻿using System.Drawing;
+using System.IO;
 using System.Net;
-using System.Drawing;
+using System.Security;
+using POEApi.Infrastructure;
+using POEApi.Infrastructure.Events;
 
 namespace POEApi.Transport
 {
